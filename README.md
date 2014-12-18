@@ -12,7 +12,7 @@ sudo vim /usr/local/mysql/my.cnf
 
 add line:
 
-```sh
+```ini
 max_allowed_packet = 512M
 ```
 
