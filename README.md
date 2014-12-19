@@ -1,9 +1,8 @@
-tip-and-tricks
-==============
+#Tips and tricks
 
-# MySQL on MacOS
+## MySQL on MacOS
 
-## Load big dump "MySQL has gone away"
+### Load big dump "MySQL has gone away"
 
 edit:
 ```sh
@@ -22,3 +21,11 @@ restart MySQL:
 sudo /usr/local/mysql/support-files/mysql.server restart
 ```
 
+## Numeric keyboard with iterm
+To turn on the apple numeric keyboard with iterm: 
+iTerm -> Preferences -> Profiles -> Keys -> Load Preset… -> xterm with numeric keypad
+
+For zsh & the enter key type in terminal:
+```sh
+$ bindkey -s "^[OM" "^M"
+```
