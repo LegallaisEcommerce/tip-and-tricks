@@ -23,6 +23,7 @@ sudo /usr/local/mysql/support-files/mysql.server restart
 
 ## Numeric keyboard with iterm
 To turn on the apple numeric keyboard with iterm: 
+
 iTerm -> Preferences -> Profiles -> Keys -> Load Preset… -> xterm with numeric keypad
 
 For zsh & the enter key type in terminal:
