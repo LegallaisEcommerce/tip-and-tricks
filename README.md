@@ -30,3 +30,19 @@ For zsh & the enter key type in terminal:
 ```sh
 $ bindkey -s "^[OM" "^M"
 ```
+
+## Atom preferences
+config.cson
+
+```json
+"*":
+  editor:
+    fontSize: 14
+    showInvisibles: true
+    showIndentGuide: true
+    autoIndentOnPaste: false
+    nonWordCharacters: "./\\()\"':,.;<>~!@#%^&*|+=[]{}`?-"
+    tabLength: 4
+    invisibles: {}
+$ bindkey -s "^[OM" "^M"
+```
