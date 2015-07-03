@@ -71,3 +71,12 @@ Wait for "The volume OS X appear to be OK" and type :
 $ nvram boot-args=""
 $ reboot
 ```
+## PHP Version conflict
+
+If you update MacOs your command line PHP version doesn't match anymore your Apache PHP version. 
+I order to get it fixed let's play these : 
+
+```
+$ mv /usr/bin/php /usr/bin/php.old
+$ sudo ln -s /usr/local/php5/bin/php /usr/bin/php
+```
