@@ -80,3 +80,15 @@ I order to get it fixed let's play these :
 $ sudo mv /usr/bin/php /usr/bin/php.old
 $ sudo ln -s /usr/local/php5/bin/php /usr/bin/php
 ```
+## Disable System Integrity Protection
+On El Capitain, Apple introduced System Integrity Protection (aka "rootless").
+So for instance you can't perform 
+```
+$ sudo mv /usr/bin/php /usr/bin/php.old
+```
+Thankfully you can desactivate this feature. 
+Restart your mac and hold on Command+R until the Apple logo appear. 
+Then go to  Utilities > Terminal.
+Perform this command : 
+`csrutil disable`
+And restart. 
