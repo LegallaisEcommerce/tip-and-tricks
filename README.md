@@ -87,8 +87,10 @@ So for instance you can't perform
 $ sudo mv /usr/bin/php /usr/bin/php.old
 ```
 Thankfully you can desactivate this feature. 
-Restart your mac and hold on Command+R until the Apple logo appear. 
-Then go to  Utilities > Terminal.
-Perform this command : 
-`csrutil disable`
-And restart. 
+
+* Restart your mac and hold on Command+R until the Apple logo appear. 
+* Then go to  Utilities > Terminal.
+* Perform this command : 
+
+  `csrutil disable`
+* And restart. 
